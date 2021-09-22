@@ -1,8 +1,10 @@
 import React from 'react'
+import Test from './Test'
 
 const Second = () => {
     return (
-        <div>
+        <>
+        <Test/>
 
             <h1 style={{backgroundColor:'red',color:'green'}}>hello this is second js component 
 
@@ -12,7 +14,7 @@ const Second = () => {
 
 
             
-        </div>
+        </>
     )
 }
 
